@@ -1,7 +1,8 @@
 -- יצירת טבלת Corps (חיל)
 CREATE TABLE Corps (
     CorpsID SERIAL PRIMARY KEY,
-    CorpsName VARCHAR(30) NOT NULL
+    CorpsName VARCHAR(30) NOT NULL,
+    Specialization VARCHAR(50) -- תחום ההתמחות של החיל
 );
 
 -- יצירת טבלת Commander (מפקד)
@@ -75,6 +76,7 @@ CREATE TABLE Executed_by (
 CREATE TABLE Requires (
     EquipmentID INT,
     OperationID INT,
+    RequiredQuantity INT, -- כמה ציוד דרוש למבצע הזה
     PRIMARY KEY (EquipmentID, OperationID),
     FOREIGN KEY (EquipmentID) REFERENCES Equipment(EquipmentID),
     FOREIGN KEY (OperationID) REFERENCES Operation(OperationID)

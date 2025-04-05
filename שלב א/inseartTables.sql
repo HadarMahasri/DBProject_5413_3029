@@ -1,7 +1,7 @@
--- הכנסת נתונים לטבלת Corps (חיל)
-INSERT INTO Corps (CorpsName) VALUES ('חיל האוויר');
-INSERT INTO Corps (CorpsName) VALUES ('חיל הים');
-INSERT INTO Corps (CorpsName) VALUES ('חיל רגלים');
+-- הכנסת נתונים לטבלת Corps (חיל) עם Specialization
+INSERT INTO Corps (CorpsName, Specialization) VALUES ('חיל האוויר', 'לוחמה אווירית');
+INSERT INTO Corps (CorpsName, Specialization) VALUES ('חיל הים', 'לוחמה ימית');
+INSERT INTO Corps (CorpsName, Specialization) VALUES ('חיל רגלים', 'לוחמה קרקעית');
 
 -- הכנסת נתונים לטבלת Commander (מפקד)
 INSERT INTO Commander (Name, Rank, ExperienceYears) VALUES ('אבי כהן', 'אלוף', 20);
@@ -47,7 +47,7 @@ INSERT INTO Executed_by (OperationID, UnitID, CorpsID) VALUES (1, 1, 1);
 INSERT INTO Executed_by (OperationID, UnitID, CorpsID) VALUES (2, 1, 1);
 INSERT INTO Executed_by (OperationID, UnitID, CorpsID) VALUES (3, 2, 2);
 
--- הכנסת נתונים לטבלת הקשר Requires (דורש)
-INSERT INTO Requires (EquipmentID, OperationID) VALUES (1, 1);
-INSERT INTO Requires (EquipmentID, OperationID) VALUES (2, 3);
-INSERT INTO Requires (EquipmentID, OperationID) VALUES (3, 2);
+-- הכנסת נתונים לטבלת הקשר Requires (דורש) עם RequiredQuantity
+INSERT INTO Requires (EquipmentID, OperationID, RequiredQuantity) VALUES (1, 1, 2); -- 2 מטוסים
+INSERT INTO Requires (EquipmentID, OperationID, RequiredQuantity) VALUES (2, 3, 1); -- 1 ספינת טילים
+INSERT INTO Requires (EquipmentID, OperationID, RequiredQuantity) VALUES (3, 2, 3); -- 3 נגמשים
