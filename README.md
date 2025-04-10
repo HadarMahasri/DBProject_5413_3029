@@ -90,8 +90,8 @@ DSD - דיאגרמת סכמת נתונים
 ![alt text](commander2.png)
 
 עבור טבלת crops:
-![alt text](crops1.png)
-![alt text](crops2.png)
+![alt text](image-7.png)
+![alt text](image-8.png)
 
 עבור טבלת operation:
 ![alt text](operation1.png)
