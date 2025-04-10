@@ -77,7 +77,7 @@ DSD - דיאגרמת סכמת נתונים
 ### מבנה הטבלאות 
 להלן מבנה הטבלאות שיצרנו במסד הנתונים:
 
-![alt text](image-2.png)
+![image](https://github.com/user-attachments/assets/d5dcb4e5-9688-4537-950b-2ccaa486fb1a)
 ![alt text](image-3.png)
 ![alt text](image-4.png)
 ![alt text](image-5.png)
