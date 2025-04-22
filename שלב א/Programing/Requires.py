@@ -1,0 +1,74 @@
+import csv
+import random
+from sqlalchemy import create_engine, text
+
+DATABASE_URL = "postgresql://myuser:mypassword@localhost:5432/Operations Branch"
+
+# יצירת מנוע SQLAlchemy
+engine = create_engine(DATABASE_URL)
+
+# טווח מזהים אמיתיים לפי הנתונים הקיימים
+operation_ids = list(range(1, 401))
+equipment_ids = list(range(1, 401))
+
+# רשימה לשמירת הנתונים
+requires_data = []
+
+# יצירת קובץ CSV
+with open("requires.csv", mode="w", newline="") as file:
+    writer = csv.writer(file)
+
+    # כתיבת כותרות העמודות
+    writer.writerow(["EquipmentID", "OperationID", "RequiredQuantity"])
+
+    # יצירת 400 רשומות תקינות
+    for _ in range(400):
+        equipment_id = random.choice(equipment_ids)
+        operation_id = random.choice(operation_ids)
+        required_quantity = random.randint(1, 100)  # כמות דרושה אקראית בין 1 ל-100
+
+        # כתיבה לקובץ CSV
+        writer.writerow([equipment_id, operation_id, required_quantity])
+
+        # שמירת הנתונים גם לרשימה לצורך הכנסה לבסיס הנתונים
+        requires_data.append({
+            "equip_id": equipment_id,
+            "op_id": operation_id,
+            "req_qty": required_quantity
+        })
+
+print("✅ קובץ CSV 'requires.csv' נוצר בהצלחה!")
+
+# העלאת הנתונים לבסיס הנתונים
+try:
+    # בדיקת חיבור לבסיס הנתונים
+    with engine.connect() as connection:
+        result = connection.execute(text("SELECT version();"))
+        version = result.scalar()
+        print(f"PostgreSQL Version: {version}")
+        print("✅ התחברות למסד הנתונים הצליחה!")
+
+        # ניקוי טבלה קיימת (אופציונלי - הסר אם אתה רוצה להוסיף לנתונים קיימים)
+        connection.execute(text("TRUNCATE TABLE requires CASCADE"))
+        connection.commit()
+        print("✅ טבלת Requires נוקתה בהצלחה")
+
+        # הכנסת הנתונים בקבוצות של 50
+        batch_size = 50
+        for i in range(0, len(requires_data), batch_size):
+            batch = requires_data[i:i + batch_size]
+
+            # הכנסת האצווה לבסיס הנתונים
+            stmt = text("""
+                INSERT INTO requires (equipmentid, operationid, requiredquantity)
+                VALUES (:equip_id, :op_id, :req_qty)
+            """)
+
+            connection.execute(stmt, batch)
+            connection.commit()
+            print(f"✅ הוכנסו {min(i + batch_size, len(requires_data))} רשומות Requires...")
+
+        print(f"✅ סה\"כ הוכנסו בהצלחה {len(requires_data)} רשומות לטבלת Requires!")
+
+except Exception as e:
+    print(f"❌ שגיאה בחיבור למסד הנתונים או בהכנסת הנתונים: {e}")
