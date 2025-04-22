@@ -15,30 +15,6 @@ corps_ids = list(range(1, 401))
 # רשימה לשמירת הנתונים
 executed_by_data = []
 
-# יצירת קובץ CSV
-with open("executed_by.csv", mode="w", newline="") as file:
-    writer = csv.writer(file)
-
-    # כתיבת כותרות העמודות
-    writer.writerow(["OperationID", "UnitID", "CorpsID"])
-
-    # יצירת 400 רשומות תקינות
-    for _ in range(400):
-        operation_id = random.choice(operation_ids)
-        unit_id = random.choice(unit_ids)
-        corps_id = random.choice(corps_ids)
-
-        # כתיבה לקובץ CSV
-        writer.writerow([operation_id, unit_id, corps_id])
-
-        # שמירת הנתונים גם לרשימה לצורך הכנסה לבסיס הנתונים
-        executed_by_data.append({
-            "op_id": operation_id,
-            "unit_id": unit_id,
-            "corps_id": corps_id
-        })
-
-print("✅ קובץ CSV 'executed_by.csv' נוצר בהצלחה!")
 
 # העלאת הנתונים לבסיס הנתונים
 try:

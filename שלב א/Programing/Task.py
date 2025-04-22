@@ -28,59 +28,6 @@ start_date = datetime(2023, 1, 1)
 end_date = datetime(2023, 12, 31)
 date_range = (end_date - start_date).days
 
-# יצירת קובץ CSV
-with open("task.csv", mode="w", newline="", encoding="utf-8") as file:
-    writer = csv.writer(file)
-
-    # כתיבת כותרות העמודות
-    writer.writerow(["TaskID", "Task", "Date", "StartTime", "EndTime", "OperationID"])
-
-    # יצירת 400 רשומות תקינות
-    for i in range(1, 401):
-        # יצירת תאריך אקראי
-        random_days = random.randint(0, date_range)
-        task_date = start_date + timedelta(days=random_days)
-
-        # יצירת זמני התחלה וסיום אקראיים
-        start_hour = random.randint(6, 20)
-        start_minute = random.randint(0, 59)
-        start_time_obj = time(start_hour, start_minute)
-
-        # משך משימה בין שעה ל-8 שעות
-        task_duration = random.randint(1, 8)
-        end_hour = min(start_hour + task_duration, 23)
-        end_minute = random.randint(0, 59)
-        end_time_obj = time(end_hour, end_minute)
-
-        # בחירת מבצע אקראי
-        operation_id = random.choice(operation_ids)
-
-        # יצירת שם משימה
-        task_type = random.choice(task_types)
-        task_suffix = f"באזור {random.choice(['צפון', 'דרום', 'מרכז', 'מזרח', 'מערב'])}"
-        task_name = f"{task_type} {task_suffix}"
-
-        # כתיבה לקובץ CSV
-        writer.writerow([
-            i,  # TaskID
-            task_name,
-            task_date.strftime("%Y-%m-%d"),
-            start_time_obj.strftime("%H:%M:%S"),
-            end_time_obj.strftime("%H:%M:%S"),
-            operation_id
-        ])
-
-        # שמירת הנתונים גם לרשימה לצורך הכנסה לבסיס הנתונים
-        task_data.append({
-            "task_id": i,
-            "task": task_name,
-            "date": task_date,
-            "start_time": start_time_obj,
-            "end_time": end_time_obj,
-            "op_id": operation_id
-        })
-
-print("✅ קובץ CSV 'task.csv' נוצר בהצלחה!")
 
 # העלאת הנתונים לבסיס הנתונים
 try:

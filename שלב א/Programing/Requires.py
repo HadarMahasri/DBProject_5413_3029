@@ -14,31 +14,6 @@ equipment_ids = list(range(1, 401))
 # רשימה לשמירת הנתונים
 requires_data = []
 
-# יצירת קובץ CSV
-with open("requires.csv", mode="w", newline="") as file:
-    writer = csv.writer(file)
-
-    # כתיבת כותרות העמודות
-    writer.writerow(["EquipmentID", "OperationID", "RequiredQuantity"])
-
-    # יצירת 400 רשומות תקינות
-    for _ in range(400):
-        equipment_id = random.choice(equipment_ids)
-        operation_id = random.choice(operation_ids)
-        required_quantity = random.randint(1, 100)  # כמות דרושה אקראית בין 1 ל-100
-
-        # כתיבה לקובץ CSV
-        writer.writerow([equipment_id, operation_id, required_quantity])
-
-        # שמירת הנתונים גם לרשימה לצורך הכנסה לבסיס הנתונים
-        requires_data.append({
-            "equip_id": equipment_id,
-            "op_id": operation_id,
-            "req_qty": required_quantity
-        })
-
-print("✅ קובץ CSV 'requires.csv' נוצר בהצלחה!")
-
 # העלאת הנתונים לבסיס הנתונים
 try:
     # בדיקת חיבור לבסיס הנתונים
