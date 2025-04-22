@@ -95,4 +95,35 @@ DSD - דיאגרמת סכמת נתונים
 עבור טבלת operation:
 ![alt text](operation1.png)
 ![alt text](operation2.png)
+
+
+
+שיטה 2- הכנסת נתונים מקבצי אקסל
+עבור טבלת Equipment:
+![alt text](image-19.png)
+
+עבור טבלת OperationalReport:
+![alt text](image-20.png)
+
+עבור טבלת Unit:
+![alt text](image-21.png)
+
+
+
+שיטה 3- הכנסת נתונים דרך פייתון
+עבור טבלת Executed_by:
+![alt text](image-13.png)
+![alt text](image-14.png)
+
+עבור טבלת Task:
+![alt text](image-15.png)
+![alt text](image-16.png)
+
+עבור טבלת Rrequires:
+![alt text](image-17.png)
+![alt text](image-18.png)
+
+
+### גיבוי
+
 </div>
