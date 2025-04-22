@@ -1,4 +1,82 @@
-﻿Name,Quantity,equipmentid
+﻿Name,Quantity,equipmentid 
+Night Vision Goggles, 246, 4  
+Explosives, 306, 5  
+Sniper Rifle, 121, 6  
+Flashlight, 400, 7  
+Rifle, 141, 8  
+Pistol, 91, 9  
+Pistol, 253, 10  
+Radio, 46, 11  
+Medical Kit, 471, 12  
+Shield, 475, 13  
+Sniper Rifle, 221, 14  
+Pistol, 332, 15  
+Binoculars, 464, 16  
+Radio, 188, 17  
+Helmet, 219, 18  
+Grenade, 453, 19  
+Drone, 281, 20  
+Camouflage Gear, 43, 21  
+Medical Kit, 201, 22  
+Night Vision Goggles, 14, 23  
+Ammunition, 151, 24  
+Medical Kit, 41, 25  
+Medical Kit, 377, 26  
+Radio, 222, 27  
+Ammunition, 469, 28  
+Shield, 291, 29  
+Rifle, 315, 30  
+Gas Mask, 123, 31  
+Night Vision Goggles, 380, 32  
+Sniper Rifle, 36, 33  
+Body Armor, 301, 34  
+Drone, 279, 35  
+Rope, 163, 36  
+Drone, 59, 37  
+Grenade, 179, 38  
+Sniper Rifle, 447, 39  
+Rope, 327, 40  
+Grenade, 346, 41  
+Flashlight, 390, 42  
+Sniper Rifle, 428, 43  
+Night Vision Goggles, 387, 44  
+Ammunition, 341, 45  
+Gas Mask, 152, 46  
+Helmet, 370, 47  
+Rifle, 18, 48  
+Pistol, 390, 49  
+Sniper Rifle, 461, 50  
+Helmet, 351, 51  
+Night Vision Goggles, 422, 52  
+Camouflage Gear, 159, 53  
+Shield, 138, 54  
+Drone, 46, 55  
+Rifle, 378, 56  
+Sniper Rifle, 357, 57  
+Camouflage Gear, 215, 58  
+Shield, 145, 59  
+Binoculars, 418, 60  
+Shield, 75, 61  
+Shield, 48, 62  
+Drone, 284, 63  
+Rope, 44, 64  
+Helmet, 178, 65  
+Radio, 330, 66  
+Binoculars, 132, 67  
+Helmet, 125, 68  
+Ammunition, 431, 69  
+Bulletproof Vest, 199, 70  
+Flashlight, 58, 71  
+Gas Mask, 101, 72  
+Shield, 189, 73  
+Helmet, 110, 74  
+Bulletproof Vest, 335, 75  
+Bulletproof Vest, 278, 76  
+Pistol, 152, 77  
+Explosives, 455, 78  
+Tactical Boots, 396, 79  
+Drone, 145, 80  
+Ammunition, 137, 81  
 Explosives,455,82
 Body Armor,13,83
 Sniper Rifle,146,84
