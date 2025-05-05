@@ -221,8 +221,15 @@ DSD - דיאגרמת סכמת נתונים
 
   -שאילתות עדכון
   1.השאילתא מעדכנת את דרגת המפקדים בטבלה Commander, כך שכל מפקד שיש לו יותר מ־20 שנות ניסיון ואינו בדרגת "General", יקודם לדרגה זו.
+
 ![צילום מסך 2025-05-05 192158](https://github.com/user-attachments/assets/a8d0c093-701c-446e-97ef-963253bc6bd6)
 
 ![צילום מסך 2025-05-05 192333](https://github.com/user-attachments/assets/fed086d7-956a-4da0-b52e-3953083f2c62)
 
 ![צילום מסך 2025-05-05 192431](https://github.com/user-attachments/assets/4ff7fe35-9690-424d-9211-d5275ed52575)
+2.השאילתה מעדכנת את עמודת תאריך הסיום (endDate) של פעולות שהסתיימו בפברואר 2023.
+לכל פעולה כזו מתווספים 3 ימים לתאריך הסיום.
+
+![צילום מסך 2025-05-05 192710](https://github.com/user-attachments/assets/27ec85cd-a794-4390-925a-abbf06763bc3)
+![צילום מסך 2025-05-05 192900](https://github.com/user-attachments/assets/13f79385-a582-4037-9944-4c5762de8073)
+![צילום מסך 2025-05-05 192943](https://github.com/user-attachments/assets/3574efa2-ff51-4a03-ab9b-ed24ef9be354)
