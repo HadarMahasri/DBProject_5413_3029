@@ -186,4 +186,10 @@ DSD - דיאגרמת סכמת נתונים
 ומחשבת עבור כל יחידה את מספר המבצעים (Operations) שבהם השתתפה – ממויין מהכי פעילה לפחות.
 ![צילום מסך 2025-05-05 175725](https://github.com/user-attachments/assets/8b511604-a15f-454e-835a-a3215200a799)
 
-![צילום מסך 2025-05-05 175905](https://github.com/user-attachments/assets/dc367970-382d-4ac5-b86d-2c0937a3a79f)
+![צילום מסך 2025-05-05 175905](https://github.com/user-attachments/assets/dc367970-382d-4ac5-b86d-2c0937a3a79f)  
+
+5.השאילתה מציגה את כל המבצעים (Operations) שנמשכו יותר מ־500 ימים, כולל מזהה המבצע, שמו, תאריך התחלה, תאריך סיום ומשך בימים.
+התוצאה ממוינת כך שהמבצע הארוך ביותר מופיע ראשון.
+![צילום מסך 2025-05-05 180827](https://github.com/user-attachments/assets/82bf5770-d834-4631-b5b2-057e7480b603)
+![צילום מסך 2025-05-05 181128](https://github.com/user-attachments/assets/6251f863-fc01-4d1c-a4ac-e92466d4a300)
+
