@@ -248,3 +248,11 @@ DSD - דיאגרמת סכמת נתונים
 ![צילום מסך 2025-05-05 205912](https://github.com/user-attachments/assets/ed2ea27a-199f-460f-8982-40ae3d5821a6)
 
 ![צילום מסך 2025-05-05 210124](https://github.com/user-attachments/assets/75be394f-c0ed-4353-9ea8-97d64c5e2c92)
+
+2.השאילתה מוחקת ציוד מהטבלה Equipment שאינו נדרש לאף משימה לפי הטבלה Requires.
+כלומר, היא מסירה ציוד שאין לו שימוש נוכחי במערכת.
+![צילום מסך 2025-05-05 210755](https://github.com/user-attachments/assets/3ff01838-8897-4fa6-b598-7893b6c78064)
+
+
+![צילום מסך 2025-05-05 211416](https://github.com/user-attachments/assets/464de77f-785d-46ae-962e-e4b1b7733b8e)
+
