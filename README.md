@@ -1,4 +1,3 @@
-![WhatsApp Image 2025-05-05 at 13 43 41](https://github.com/user-attachments/assets/954612dc-6fb7-47c4-adba-8e7b7aadb1de)<div dir="rtl">
 
 # פרויקט בסיסי נתונים
 הדר מהסרי-213953029
@@ -164,7 +163,7 @@ DSD - דיאגרמת סכמת נתונים
 ![alt text](image-23.png)
 
 ![alt text](image-24.png)
-</div>  ![WhatsApp Image 2025-05-05 at 13 43 41](https://github.com/user-attachments/assets/b43ec0c6-41b4-4fcb-93f0-9541749f4aa8)
+![WhatsApp Image 2025-05-05 at 13 43 41](https://github.com/user-attachments/assets/954612dc-6fb7-47c4-adba-8e7b7aadb1de)<div dir="rtl">
 
 
   
