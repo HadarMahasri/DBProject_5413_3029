@@ -233,4 +233,8 @@ DSD - דיאגרמת סכמת נתונים
 ![צילום מסך 2025-05-05 192710](https://github.com/user-attachments/assets/27ec85cd-a794-4390-925a-abbf06763bc3)
 ![צילום מסך 2025-05-05 192900](https://github.com/user-attachments/assets/13f79385-a582-4037-9944-4c5762de8073)
 ![צילום מסך 2025-05-05 192943](https://github.com/user-attachments/assets/3574efa2-ff51-4a03-ab9b-ed24ef9be354)
-3. 
+3. השאילתה מעדכנת את עמודת Specialization לחיל האוויר בערך "Tactical Navigation".
+העדכון יתבצע רק אם השדה ריק או לא הוזן בו ערך קודם (NULL או מחרוזת ריקה).
+![צילום מסך 2025-05-05 201110](https://github.com/user-attachments/assets/7ddc35a0-5d01-496e-b280-64dfa2e68f5f)
+![צילום מסך 2025-05-05 202809](https://github.com/user-attachments/assets/bb381ccf-f478-4bc8-aaef-32738fae4f92)
+![צילום מסך 2025-05-05 203247](https://github.com/user-attachments/assets/6c0715d3-5a23-4883-bebf-e4d2e9b6ce4e)
