@@ -173,4 +173,10 @@ DSD - דיאגרמת סכמת נתונים
 
 ![WhatsApp Image 2025-05-05 at 13 45 18](https://github.com/user-attachments/assets/fbf8aa5f-064f-47e1-a98b-c3e06ac773f3)
 
-  
+3. השאילתה מחפשת מבצעים (Operations) שיש להם יותר משימות (Tasks) מהממוצע הכללי של משימות למבצע.
+לכל מבצע מוצגים מזהה, שם, וכמות המשימות, כשהתוצאה ממויינת בסדר יורד לפי מספר המשימות.
+
+
+  ![צילום מסך 2025-05-05 175343](https://github.com/user-attachments/assets/676d664e-b696-4ac0-ad34-47b30a3568e4)
+![צילום מסך 2025-05-05 174851](https://github.com/user-attachments/assets/92a7b383-bcd2-4768-81ce-c049c0507f0c)
+
