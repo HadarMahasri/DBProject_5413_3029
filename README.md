@@ -13,6 +13,7 @@
 - החלטות עיצוב
 - מבנה הטבלאות
 - הכנסת נתונים
+- שאילתות
 
 
  
@@ -162,8 +163,13 @@ DSD - דיאגרמת סכמת נתונים
 
 ![alt text](image-23.png)
 
-![alt text](image-24.png)
+![alt text](image-24.png)  
+### שאילתות
+1.השאילתה מציגה את כל המבצעים (Operations) שדורשים יותר ציוד מהממוצע הכללי של ציוד למבצע.
+לכל מבצע מוצגים מזהה המבצע, שמו, וכמות הציודים הנדרשים לו, בסדר יורד לפי כמות הציוד.
+
 ![WhatsApp Image 2025-05-05 at 13 43 41](https://github.com/user-attachments/assets/954612dc-6fb7-47c4-adba-8e7b7aadb1de)<div dir="rtl">
 
+![WhatsApp Image 2025-05-05 at 13 45 18](https://github.com/user-attachments/assets/fbf8aa5f-064f-47e1-a98b-c3e06ac773f3)
 
   
