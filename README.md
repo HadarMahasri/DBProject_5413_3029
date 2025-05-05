@@ -238,3 +238,13 @@ DSD - דיאגרמת סכמת נתונים
 ![צילום מסך 2025-05-05 201110](https://github.com/user-attachments/assets/7ddc35a0-5d01-496e-b280-64dfa2e68f5f)
 ![צילום מסך 2025-05-05 202809](https://github.com/user-attachments/assets/bb381ccf-f478-4bc8-aaef-32738fae4f92)
 ![צילום מסך 2025-05-05 203247](https://github.com/user-attachments/assets/6c0715d3-5a23-4883-bebf-e4d2e9b6ce4e)
+
+   -שאעלתות מחיקה
+1.השאילתה מוחקת את כל המשימות מהטבלה Task שתאריך הביצוע שלהן לפני 1 בינואר 2023.
+המטרה היא לנקות נתונים ישנים שאינם רלוונטיים עוד.
+
+![צילום מסך 2025-05-05 205737](https://github.com/user-attachments/assets/7534b47e-9e46-412d-a548-1bb855988c1c)
+
+![צילום מסך 2025-05-05 205912](https://github.com/user-attachments/assets/ed2ea27a-199f-460f-8982-40ae3d5821a6)
+
+![צילום מסך 2025-05-05 210124](https://github.com/user-attachments/assets/75be394f-c0ed-4353-9ea8-97d64c5e2c92)
