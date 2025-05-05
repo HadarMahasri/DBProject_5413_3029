@@ -235,6 +235,7 @@ DSD - דיאגרמת סכמת נתונים
 ![צילום מסך 2025-05-05 192943](https://github.com/user-attachments/assets/3574efa2-ff51-4a03-ab9b-ed24ef9be354)
 3. השאילתה מעדכנת את עמודת Specialization לחיל האוויר בערך "Tactical Navigation".
 העדכון יתבצע רק אם השדה ריק או לא הוזן בו ערך קודם (NULL או מחרוזת ריקה).
+
 ![צילום מסך 2025-05-05 201110](https://github.com/user-attachments/assets/7ddc35a0-5d01-496e-b280-64dfa2e68f5f)
 ![צילום מסך 2025-05-05 202809](https://github.com/user-attachments/assets/bb381ccf-f478-4bc8-aaef-32738fae4f92)
 ![צילום מסך 2025-05-05 203247](https://github.com/user-attachments/assets/6c0715d3-5a23-4883-bebf-e4d2e9b6ce4e)
@@ -251,8 +252,8 @@ DSD - דיאגרמת סכמת נתונים
 
 2.השאילתה מוחקת ציוד מהטבלה Equipment שאינו נדרש לאף משימה לפי הטבלה Requires.
 כלומר, היא מסירה ציוד שאין לו שימוש נוכחי במערכת.
-![צילום מסך 2025-05-05 210755](https://github.com/user-attachments/assets/3ff01838-8897-4fa6-b598-7893b6c78064)
 
+![צילום מסך 2025-05-05 210755](https://github.com/user-attachments/assets/3ff01838-8897-4fa6-b598-7893b6c78064)
 
 ![צילום מסך 2025-05-05 211416](https://github.com/user-attachments/assets/464de77f-785d-46ae-962e-e4b1b7733b8e)
 
