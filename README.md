@@ -213,5 +213,16 @@ DSD - דיאגרמת סכמת נתונים
 
 ![צילום מסך 2025-05-05 182929](https://github.com/user-attachments/assets/ad5b2c12-cbe4-4c5f-98c2-1cf429981ef1)
 ![צילום מסך 2025-05-05 183132](https://github.com/user-attachments/assets/3b838630-dd04-4bb6-aaa0-0f49baffbaa0)
+8.השאילתא מציגה את מספר הפעולות שהחלו בכל חודש בשנת 2023. היא מחלקת את התוצאות לפי חודש ומציינת את מספר הפעולות שהחלו בכל אחד מהם, כשהמיון נעשה לפי מספר החודש בסדר עולה.
 
+![צילום מסך 2025-05-05 183305](https://github.com/user-attachments/assets/896f86fc-6436-433d-9211-ffb2c5a587c1)
 
+![צילום מסך 2025-05-05 183452](https://github.com/user-attachments/assets/47cdfe5b-086b-44e7-93e1-d6db04d2371d)
+
+  -שאילתות עדכון
+  1.השאילתא מעדכנת את דרגת המפקדים בטבלה Commander, כך שכל מפקד שיש לו יותר מ־20 שנות ניסיון ואינו בדרגת "General", יקודם לדרגה זו.
+![צילום מסך 2025-05-05 192158](https://github.com/user-attachments/assets/a8d0c093-701c-446e-97ef-963253bc6bd6)
+
+![צילום מסך 2025-05-05 192333](https://github.com/user-attachments/assets/fed086d7-956a-4da0-b52e-3953083f2c62)
+
+![צילום מסך 2025-05-05 192431](https://github.com/user-attachments/assets/4ff7fe35-9690-424d-9211-d5275ed52575)
