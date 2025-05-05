@@ -256,3 +256,12 @@ DSD - דיאגרמת סכמת נתונים
 
 ![צילום מסך 2025-05-05 211416](https://github.com/user-attachments/assets/464de77f-785d-46ae-962e-e4b1b7733b8e)
 
+![צילום מסך 2025-05-05 222504](https://github.com/user-attachments/assets/5713f95e-a527-42a9-99f6-d32e549f9b5c)
+
+3.השאילתה מוחקת רשומות מטבלת Requires שבהן מזהה הפעולה (OperationID) קיים גם בטבלת Operation, והפעולה הסתיימה לפני יותר מחודש.
+היא משתמשת ב-USING כדי לבצע מחיקה מותנית על בסיס התאמה בין שתי טבלאות.
+
+![צילום מסך 2025-05-05 222737](https://github.com/user-attachments/assets/ab2ad606-1523-4719-8405-f5d07c02c5a4)
+
+![צילום מסך 2025-05-05 222950](https://github.com/user-attachments/assets/be40a72e-1434-423a-8430-9ddbe5fbe766)
+![צילום מסך 2025-05-05 223110](https://github.com/user-attachments/assets/dbd15eb2-bfd2-4e70-aeea-c1b67344f8cd)
