@@ -171,7 +171,8 @@ DSD - דיאגרמת סכמת נתונים
 ![צילום מסך 2025-05-05 174139](https://github.com/user-attachments/assets/d3e8e9e1-2124-403a-8052-8b66ac5fcf5e)
 
 
-![WhatsApp Image 2025-05-05 at 13 45 18](https://github.com/user-attachments/assets/fbf8aa5f-064f-47e1-a98b-c3e06ac773f3)
+![WhatsApp Image 2025-05-05 at 13 45 18](https://github.com/user-attachments/assets/fbf8aa5f-064f-47e1-a98b-c3e06ac773f3)  
+
 
 3. השאילתה מחפשת מבצעים (Operations) שיש להם יותר משימות (Tasks) מהממוצע הכללי של משימות למבצע.
 לכל מבצע מוצגים מזהה, שם, וכמות המשימות, כשהתוצאה ממויינת בסדר יורד לפי מספר המשימות.
@@ -179,6 +180,7 @@ DSD - דיאגרמת סכמת נתונים
 ![צילום מסך 2025-05-05 174851](https://github.com/user-attachments/assets/92a7b383-bcd2-4768-81ce-c049c0507f0c)
   ![צילום מסך 2025-05-05 175343](https://github.com/user-attachments/assets/676d664e-b696-4ac0-ad34-47b30a3568e4)
 
+  
 4.השאילתה מציגה את כל היחידות (Units) בצבא, יחד עם חיל השייכות שלהן והתמחות החיל,
 ומחשבת עבור כל יחידה את מספר המבצעים (Operations) שבהם השתתפה – ממויין מהכי פעילה לפחות.
 ![צילום מסך 2025-05-05 175725](https://github.com/user-attachments/assets/8b511604-a15f-454e-835a-a3215200a799)
