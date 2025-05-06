@@ -274,12 +274,12 @@ DSD - דיאגרמת סכמת נתונים
 ![צילום מסך 2025-05-05 222950](https://github.com/user-attachments/assets/be40a72e-1434-423a-8430-9ddbe5fbe766)
 ![צילום מסך 2025-05-05 223110](https://github.com/user-attachments/assets/dbd15eb2-bfd2-4e70-aeea-c1b67344f8cd)
 ## rollback ו-commit
-commit:
+**commit:**
 ![צילום מסך 2025-05-06 131720](https://github.com/user-attachments/assets/116b850a-aac5-4d65-a624-ac66b5005db1)
 
 ![צילום מסך 2025-05-06 132334](https://github.com/user-attachments/assets/157db283-04cf-4eb7-b4cb-355fb7cd9713)
 ![צילום מסך 2025-05-06 132718](https://github.com/user-attachments/assets/72c70751-3aaf-4d1f-a4db-b98316e7218c)
-rollback:
+**rollback:**
 ![צילום מסך 2025-05-06 132856](https://github.com/user-attachments/assets/cf152637-e642-443f-a989-c6531dd40b55)
 ![צילום מסך 2025-05-06 133037](https://github.com/user-attachments/assets/f21af9cb-fbd1-49be-b47e-d79b265a986a)
 
