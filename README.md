@@ -41,8 +41,7 @@
  ### תרשימי מערכת
 ERD - דיאגרמת יחסי ישויות
 דיאגרמת ה-ERD מתארת את הישויות במערכת ואת היחסים ביניהן:
-![alt text](image-9.png)
-
+![alt text](image.png)
 הישויות העיקריות במערכת:
 
 מבצע (Operation) - הישות המרכזית המתארת מבצע צבאי
@@ -64,8 +63,7 @@ ERD - דיאגרמת יחסי ישויות
 
 DSD - דיאגרמת סכמת נתונים
 דיאגרמת ה-DSD מציגה את הטבלאות במסד הנתונים והקשרים ביניהן:
-![alt text](image-12.png)
-
+![alt text](image-1.png)
 ### החלטות עיצוב
 במהלך תכנון המערכת התקבלו מספר החלטות עיצוב:
 
@@ -266,3 +264,22 @@ DSD - דיאגרמת סכמת נתונים
 
 ![צילום מסך 2025-05-05 222950](https://github.com/user-attachments/assets/be40a72e-1434-423a-8430-9ddbe5fbe766)
 ![צילום מסך 2025-05-05 223110](https://github.com/user-attachments/assets/dbd15eb2-bfd2-4e70-aeea-c1b67344f8cd)
+
+
+## אילוצים
+
+####   Check אילוצי 
+
+![alt text](check1.png)
+
+
+![alt text](check2.png)
+
+
+####   Not NULL אילוצי 
+
+![alt text](<not null.png>)
+
+####   Deafult אילוצי 
+
+![alt text](deafult1.png)
