@@ -1,7 +1,7 @@
 
 # פרויקט בסיסי נתונים
 הדר מהסרי-213953029
-הודיה -329385413
+הודיה גומה-329385413
 
 יחידה נבחרת: operations branch
 ## תוכן עניינים
@@ -302,3 +302,6 @@ DSD - דיאגרמת סכמת נתונים
 ###   Deafult אילוצי 
 
 ![alt text](deafult1.png)
+
+# שלב ג
+ERD של האינטגרציה: ![image](https://github.com/user-attachments/assets/b0bdca3a-652d-43f1-bea2-b81d6dfa2da6)
