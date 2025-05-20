@@ -304,4 +304,5 @@ DSD - דיאגרמת סכמת נתונים
 ![alt text](deafult1.png)
 
 # שלב ג
-ERD של האינטגרציה: ![image](https://github.com/user-attachments/assets/b0bdca3a-652d-43f1-bea2-b81d6dfa2da6)
+ERD של האינטגרציה:![image](https://github.com/user-attachments/assets/8313146d-71a6-440e-a751-6357c37cc9a4)
+
