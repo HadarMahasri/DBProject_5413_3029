@@ -304,10 +304,22 @@ DSD - דיאגרמת סכמת נתונים
 ![alt text](deafult1.png)
 
 # שלב ג
--DSD של האגף החדש:![alt text](image-35.png)
--ERD של האגף החדש: ![alt text](image-34.png)
--ERD של האינטגרציה: ![alt text](intergration-2.png)
--DSD של האינטגרציה: ![alt text](integrationDSD.png)
+
+-DSD של האגף החדש:
+
+![alt text](image-35.png)
+
+-ERD של האגף החדש:
+
+ ![alt text](image-34.png)
+
+-ERD של האינטגרציה: 
+
+![alt text](intergration-2.png)
+
+-DSD של האינטגרציה:
+
+ ![alt text](integrationDSD.png)
  
 
 ## דוח שלב האינטגרציה - מערכת מידע רפואי וצבאית
