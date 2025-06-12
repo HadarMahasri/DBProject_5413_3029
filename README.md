@@ -308,7 +308,7 @@ DSD - דיאגרמת סכמת נתונים
 
 ###   Not NULL אילוצי 
 
-![alt text](<שלב ב/not_null.png>)
+![alt text](<שלב ב/not null.png>)
 
 ###   Deafult אילוצי 
 
