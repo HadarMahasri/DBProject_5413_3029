@@ -538,7 +538,7 @@ Corps -
 
 
 
-# שלב ד 
+# שלב ד: תכנות pgSQL
 
 ## פונקציות פרוצדורות וטריגרים 
 
@@ -574,6 +574,30 @@ corps → unit → executed_by → operation→medical_event → patient.
 
 ![alt text](get_corps_patient_summary_function().png)
 
+פונקציה 2-
+
+פונקציה: get_logistic_status_by_operation()
+מטרה:
+להעריך את המצב הלוגיסטי של ציוד נדרש במבצעים לפי כמות הציוד בפועל מול הכמות שנדרשה.
+
+מה היא עושה בפועל:
+
+מקשרת בין מבצעים (operation), מפקדים (commander), דרישות ציוד (requires) וציוד קיים (equipment).
+
+מחשבת את אחוז הכיסוי של ציוד מבוקש: כמות בפועל ÷ כמות נדרשת.
+
+מגדירה סטטוס לוגיסטי לפי:
+
+כיסוי של 100% → כיסוי תקין
+
+כיסוי בין 70% ל־99% → כיסוי גבולי
+
+כיסוי < 70% → מחסור בציוד
+
+אין ציוד כלל → אין ציוד
+
+![alt text](get_logistic_status_by_operation_function.png)
+
 
 פרוצדורה 1-
 מטרה:
@@ -596,6 +620,25 @@ corps → unit → executed_by → operation→medical_event → patient.
 ![alt text](summarize_medical_load_to_report_procedure.png)
 
 
+פרוצדורה 2-
+
+מטרה:
+לזהות מבצעים עם בעיות לוגיסטיות ולתעד אותם בדוחות.
+
+מה היא עושה בפועל:
+
+קוראת לפונקציה get_logistic_status_by_operation().
+
+עבור כל מבצע שיש בו מחסור בציוד או כיסוי גבולי, מתווסף דוח ל־operational_report.
+
+כמו בתוכנית 1, תאריך הדוח נבחר באקראי בטווח התאריכים של המבצע.
+
+אם מתרחשת שגיאה (למשל ניסיון להזין ID כפול), נרשמת הודעת שגיאה עם פרטי המבצע.
+
+
+![alt text](check_logistic_risk_operations_procedure.png)
+
+
 טריגר 1-
 
 פונקציית טריגר: trg_check_medical_load()
@@ -611,6 +654,20 @@ corps → unit → executed_by → operation→medical_event → patient.
 
 
 ![alt text](trg_on_patient_insert.png)
+
+טריגר 2-
+
+פונקציית טריגר: trg_check_logistic_risk()
+
+הגדרה: AFTER INSERT OR UPDATE ON requires
+
+מה היא עושה:
+מפעילה את check_logistic_risk_operations() בכל שינוי בדרישות ציוד.
+
+למה זה חשוב?
+כי שינוי בדרישות יכול לגרום מידית לסיכון לוגיסטי שמחייב בדיקה ועדכון דוח.
+
+![alt text](<טריגר check_logistic_risk.png>)
 
 
 תוכנית 1 – עומס רפואי במבצעים
@@ -652,64 +709,6 @@ corps → unit → executed_by → operation→medical_event → patient.
 
 
 
-
-פונקציה 2-
-
-פונקציה: get_logistic_status_by_operation()
-מטרה:
-להעריך את המצב הלוגיסטי של ציוד נדרש במבצעים לפי כמות הציוד בפועל מול הכמות שנדרשה.
-
-מה היא עושה בפועל:
-
-מקשרת בין מבצעים (operation), מפקדים (commander), דרישות ציוד (requires) וציוד קיים (equipment).
-
-מחשבת את אחוז הכיסוי של ציוד מבוקש: כמות בפועל ÷ כמות נדרשת.
-
-מגדירה סטטוס לוגיסטי לפי:
-
-כיסוי של 100% → כיסוי תקין
-
-כיסוי בין 70% ל־99% → כיסוי גבולי
-
-כיסוי < 70% → מחסור בציוד
-
-אין ציוד כלל → אין ציוד
-
-![alt text](get_logistic_status_by_operation_function.png)
-
-
-פרוצדורה 2-
-
-מטרה:
-לזהות מבצעים עם בעיות לוגיסטיות ולתעד אותם בדוחות.
-
-מה היא עושה בפועל:
-
-קוראת לפונקציה get_logistic_status_by_operation().
-
-עבור כל מבצע שיש בו מחסור בציוד או כיסוי גבולי, מתווסף דוח ל־operational_report.
-
-כמו בתוכנית 1, תאריך הדוח נבחר באקראי בטווח התאריכים של המבצע.
-
-אם מתרחשת שגיאה (למשל ניסיון להזין ID כפול), נרשמת הודעת שגיאה עם פרטי המבצע.
-
-
-![alt text](check_logistic_risk_operations_procedure.png)
-
-
-טריגר 2-
-
-פונקציית טריגר: trg_check_logistic_risk()
-
-הגדרה: AFTER INSERT OR UPDATE ON requires
-
-מה היא עושה:
-מפעילה את check_logistic_risk_operations() בכל שינוי בדרישות ציוד.
-
-למה זה חשוב?
-כי שינוי בדרישות יכול לגרום מידית לסיכון לוגיסטי שמחייב בדיקה ועדכון דוח.
-
-![alt text](<טריגר check_logistic_risk.png>)
 
 
 תוכנית 2 – התרעות לוגיסטיות
