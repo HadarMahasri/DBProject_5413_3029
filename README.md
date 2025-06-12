@@ -82,7 +82,7 @@
 
 DSD - דיאגרמת סכמת נתונים
 דיאגרמת ה-DSD מציגה את הטבלאות במסד הנתונים והקשרים ביניהן:
-![alt text](image-1.png)
+![alt text](<שלב א/image-1.png>)
 ### החלטות עיצוב
 במהלך תכנון המערכת התקבלו מספר החלטות עיצוב:
 
@@ -308,15 +308,15 @@ DSD - דיאגרמת סכמת נתונים
 
 ###   Check אילוצי 
 
-![alt text](check1.png)
+![alt text](<שלב ב/check1.png>)
 
 
-![alt text](check2.png)
+![alt text](<שלב ב/check2.png>)
 
 
 ###   Not NULL אילוצי 
 
-![alt text](<not null.png>)
+![alt text](<שלב ב/not_null.png>)
 
 ###   Deafult אילוצי 
 
