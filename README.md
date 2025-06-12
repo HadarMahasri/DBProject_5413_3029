@@ -561,7 +561,7 @@ corps → unit → executed_by → operation→medical_event → patient.
 
 
 
-![alt text](<get_corps_patient_summary_function().png>)
+![alt text](<שלב ד/get_corps_patient_summary_function().png>)
 
 פונקציה 2-
 
@@ -682,19 +682,19 @@ corps → unit → executed_by → operation→medical_event → patient.
 
 
 
-![alt text](image-51.png)
+![alt text](<שלב ד/image-51.png>)
 
 
-![alt text](<הרצת תוכנית 1.png>)
+![alt text](<שלב ד/הרצת תוכנית 1.png>)
 
 לפני הרצה-
 
-![alt text](<operation_report לפני עדכון.png>)
+![alt text](<שלב ד/operation_report לפני עדכון.png>)
 
 
 עדכון טבלת operation_report:
 
-![alt text](image-50.png)
+![alt text](<שלב ד/image-50.png>)
 
 
 
@@ -723,13 +723,13 @@ corps → unit → executed_by → operation→medical_event → patient.
 
 
 
-![alt text](image-52.png)
+![alt text](<שלב ד/image-52.png>)
 
-![alt text](image-53.png)
+![alt text](<שלב ד/image-53.png>)
 
 
 
 עדכון טבלת operation_report:
 
-![alt text](<operation_report_מחסור בציוד.png>)
+![alt text](<שלב ד/operation_report_מחסור בציוד.png>)
  </div>
