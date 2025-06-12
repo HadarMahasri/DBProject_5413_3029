@@ -320,25 +320,25 @@ DSD - דיאגרמת סכמת נתונים
 
 ###   Deafult אילוצי 
 
-![alt text](deafult1.png)
+![alt text](<שלב ב/deafult1.png>)
 
 # שלב ג: אינטגרציה ומבטים
 
 -DSD של האגף החדש:
 
-![alt text](image-35.png)
+![alt text](<שלב ג/image-35.png>)
 
 -ERD של האגף החדש:
 
- ![alt text](image-34.png)
+ ![alt text](<שלב ג/image-34.png>)
 
 -ERD של האינטגרציה: 
 
-![alt text](intergration-2.png)
+![alt text](<שלב ג/intergration-2.png>)
 
 -DSD של האינטגרציה:
 
- ![alt text](integrationDSD.png)
+ ![alt text](<שלב ג/integrationDSD.png>)
  
 
 ## דוח שלב האינטגרציה - מערכת מידע רפואי וצבאית
@@ -394,7 +394,7 @@ DSD - דיאגרמת סכמת נתונים
 
 #### שלב 1: הכנה ליצירת הירושה
 
-![alt text](image-23.png)
+![alt text](<שלב ג/image-23.png>)
 
 
 
@@ -403,15 +403,15 @@ Soldier עם מבנה מינימלי - רק מזהה ושם. טבלה זו תש�
 
 #### שלב 2: עדכון טבלת המפקדים
 
-![alt text](image-24.png)
+![alt text](<שלב ג/image-24.png>)
 
 **הסבר: לפני שינוי מבנה הטבלה, חובה להסיר את כל האילוצים התלויים בה. קודם מסירים מפתחות זרים מטבלאות אחרות שמצביעות לטבלה, ואז את המפתח הראשי של הטבלה עצמה.**
 
-![alt text](image-26.png)
+![alt text](<שלב ג/image-26.png>)
 
 **הסבר: הוספת המפקדים לטבלת האב עם המזהים החדשים (מקורי + מיליון), ואז עדכון המזהים בטבלת המפקדים עצמה להתאמה.**
 
-![alt text](image-27.png)
+![alt text](<שלב ג/image-27.png>)
 
 **הסבר: עדכון כל הטבלאות שמפנות למפקדים כדי להתאים למזהים החדשים, ויצירת המפתחות מחדש לאחר השינויים.**
 
@@ -419,15 +419,15 @@ Soldier עם מבנה מינימלי - רק מזהה ושם. טבלה זו תש�
 
 #### שלב 3: עדכון טבלת הפרמדיקים
 התהליך זהה לשלב המפקדים, אך עם הוספת 2,000,000 למזהים:
-![alt text](image-28.png)
+![alt text](<שלב ג/image-28.png>)
 
 #### שלב 4: עדכון טבלת המטופלים
 
-![alt text](image-29.png)
+![alt text](<שלב ג/image-29.png>)
 
 #### שלב 5: מיזוג טבלאות ציוד
 
-![alt text](image-30.png)
+![alt text](<שלב ג/image-30.png>)
 
 **הסבר: במקום לשנות מזהים, אנחנו יוצרים מפתח מורכב שמורכב ממזהה הציוד וסוגו. זה מאפשר לאותו מזהה להתקיים פעמיים - פעם אחת כציוד צבאי ופעם כציוד רפואי.**
 
@@ -435,7 +435,7 @@ Soldier עם מבנה מינימלי - רק מזהה ושם. טבלה זו תש�
 
 #### שלב 6: עדכון טבלאות הקשר לציוד
 
-![alt text](image-31.png)
+![alt text](<שלב ג/image-31.png>)
 
 **הסבר: הוספת עמודת סוג ציוד לטבלאות הקשר ועדכון הערכים בהתאם. ציוד שמופיע בטבלת הציוד הרפואי מסומן כ-'Medical'.**
 
@@ -444,7 +444,7 @@ Soldier עם מבנה מינימלי - רק מזהה ושם. טבלה זו תש�
 
 #### שלב 7: קישור אירועים רפואיים למבצעים
 
-![alt text](image-32.png)
+![alt text](<שלב ג/image-32.png>)
 
 **הסבר: הוספת עמודה לקישור אירועים רפואיים למבצעים, ועדכון אוטומטי של הקישורים לפי תאריכים. אירוע שהתרחש בזמן מבצע מקושר אליו.**
 
@@ -469,27 +469,27 @@ Treatment -
 
 
 
-![alt text](image-39.png)
+![alt text](<שלב ג/image-39.png>)
 
-![alt text](image-36.png)
+![alt text](<שלב ג/image-36.png>)
 
 שאילתא-1
 -- שאילתה 1: מיהם הפרמדיקים הכי פעילים?
 -- שאלה מעשית: איזה פרמדיקים נותנים הכי הרבה טיפולים?
 
 
-![alt text](image-40.png)
+![alt text](<שלב ג/image-40.png>)
 
-![alt text](image-41.png)
+![alt text](<שלב ג/image-41.png>)
 
 
 שאילתא-2
 -- שאילתה 2: איזה פרמדיקים צריכים עזרה או הכשרה?
 -- שאלה מעשית: מי הפרמדיקים החדשים או הפחות פעילים שצריכים תמיכה?
 
-![alt text](image-42.png)
+![alt text](<שלב ג/image-42.png>)
 
-![alt text](image-43.png)
+![alt text](<שלב ג/image-43.png>)
 
 
 ### View2
@@ -512,27 +512,27 @@ Corps -
  מידע על החילות (שם, התמחות)
 
 
-![alt text](image-45.png)
+![alt text](<שלב ג/image-45.png>)
 
-![alt text](image-44.png)
+![alt text](<שלב ג/image-44.png>)
 
 שאילתא-1
 
 -- שאילתה 1: איזה יחידות הכי פעילות?
 -- שאלה פשוטה: אילו יחידות השתתפו בהכי הרבה מבצעים?
 
-![alt text](image-46.png)
+![alt text](<שלב ג/image-46.png>)
 
-![alt text](image-47.png)
+![alt text](<שלב ג/image-47.png>)
 
 שאילתא-2
 
 -- שאילתה 2: איזה חילות הכי נדרשים?
 -- שאלה פשוטה: איזה סוגי חילות הכי הרבה פעמים נקראים למבצעים?
 
-![alt text](image-49.png)
+![alt text](<שלב ג/image-49.png>)
 
-![alt text](image-48.png)
+![alt text](<שלב ג/image-48.png>)
 
 
 
@@ -573,7 +573,7 @@ corps → unit → executed_by → operation→medical_event → patient.
 
 
 
-![alt text](get_corps_patient_summary_function().png)
+![alt text](<שלב ד/get_corps_patient_summary_function().png>)
 
 פונקציה 2-
 
@@ -597,7 +597,7 @@ corps → unit → executed_by → operation→medical_event → patient.
 
 אין ציוד כלל → אין ציוד
 
-![alt text](get_logistic_status_by_operation_function.png)
+![alt text](<שלב ד/get_logistic_status_by_operation_function.png>)
 
 
 פרוצדורה 1-
@@ -618,7 +618,7 @@ corps → unit → executed_by → operation→medical_event → patient.
 
 
 
-![alt text](summarize_medical_load_to_report_procedure.png)
+![alt text](<שלב ד/summarize_medical_load_to_report_procedure.png>)
 
 
 פרוצדורה 2-
@@ -637,7 +637,7 @@ corps → unit → executed_by → operation→medical_event → patient.
 אם מתרחשת שגיאה (למשל ניסיון להזין ID כפול), נרשמת הודעת שגיאה עם פרטי המבצע.
 
 
-![alt text](check_logistic_risk_operations_procedure.png)
+![alt text](<שלב ד/check_logistic_risk_operations_procedure.png>)
 
 
 טריגר 1-
@@ -654,7 +654,7 @@ corps → unit → executed_by → operation→medical_event → patient.
 
 
 
-![alt text](trg_on_patient_insert.png)
+![alt text](<שלב ד/trg_on_patient_insert.png>)
 
 טריגר 2-
 
