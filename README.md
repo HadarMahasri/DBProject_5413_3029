@@ -51,10 +51,9 @@
 
 
  ### תרשימי מערכת
- <div dir="rtl">
+
   : ERD  דיאגרמת יחסי ישויות 
 
- </div>
 
 דיאגרמת ה-ERD מתארת את הישויות במערכת ואת היחסים ביניהן:
 ![alt text](image.png)
@@ -455,7 +454,7 @@ Soldier עם מבנה מינימלי - רק מזהה ושם. טבלה זו תש�
 
 טבלאות מעורבות:
 
-<div dir="rtl">
+
 Paramedic -
  מידע על הפרמדיקים (מזהה, שם, ניסיון)
 
@@ -464,7 +463,7 @@ Treatment -
 מידע על הטיפולים שניתנו (משך, סוג, תאריך)
 
 
-</div>
+
 
 ![alt text](image-39.png)
 
@@ -495,7 +494,6 @@ Treatment -
 תכלית המבט
 מבט המיועד לניהול הכוחות והמבצעים ומתמקד בהשתתפות יחידות במבצעים שונים.
 טבלאות מעורבות:
-<div dir="rtl">
 
 Operation -
  מידע על המבצעים (שם, מיקום, תאריכים)
@@ -508,7 +506,7 @@ Unit -
 
 Corps -
  מידע על החילות (שם, התמחות)
- </div>
+
 
 ![alt text](image-45.png)
 
@@ -533,9 +531,9 @@ Corps -
 ![alt text](image-48.png)
 
 
-</div>
 
-<div dir="rtl">
+
+
 
 # שלב ד 
 
@@ -743,4 +741,4 @@ corps → unit → executed_by → operation→medical_event → patient.
 עדכון טבלת operation_report:
 
 ![alt text](<operation_report_מחסור בציוד.png>)
-</div>
+ </div>
