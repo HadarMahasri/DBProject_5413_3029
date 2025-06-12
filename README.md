@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/4b8af914-5b12-4c71-945b-5e52b82b7868)![image](https://github.com/user-attachments/assets/4b8af914-5b12-4c71-945b-5e52b82b7868)![image](https://github.com/user-attachments/assets/4b8af914-5b12-4c71-945b-5e52b82b7868)
 
 # פרויקט בסיסי נתונים
 הדר מהסרי-213953029
