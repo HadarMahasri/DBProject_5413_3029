@@ -94,9 +94,9 @@ DSD - דיאגרמת סכמת נתונים
 ### מבנה הטבלאות 
 להלן מבנה הטבלאות שיצרנו במסד הנתונים:
 
-![alt text](image-2.png)
-![alt text](image-3.png)
-![alt text](image-4.png)\
+![image-2](https://github.com/user-attachments/assets/fe385601-e63d-48b5-981b-f02944021fc4)
+![image-3](https://github.com/user-attachments/assets/f0c3bc29-711e-4117-9653-5f73d3c3c3f6)
+![image-4](https://github.com/user-attachments/assets/c88535bb-9bac-40e4-8c4c-3f176b95dd2a)
 ![alt text](<שלב א/image-5.png>)
 
 
@@ -105,7 +105,7 @@ DSD - דיאגרמת סכמת נתונים
 עבור טבלת commander:
 
 ![alt text](image-5.png)
-![alt text](image-6.png)
+![alt text](<שלב א/image-6.png>)
 עבור טבלת corps:
 ![alt text](image-7.png)
 ![alt text](image-8.png)
