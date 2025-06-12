@@ -533,7 +533,7 @@ Corps -
 
 # שלב ד: תכנות pgSQL
 
-## פונקציות פרוצדורות וטריגרים 
+## פונקציות
 
 פונקציה 1- 
 
@@ -587,7 +587,7 @@ corps → unit → executed_by → operation→medical_event → patient.
 
 ![alt text](<שלב ד/get_logistic_status_by_operation_function.png>)
 
-
+## פרוצדרות
 פרוצדורה 1-
 מטרה:
 לאתר מבצעים עם עומס רפואי חריג/בינוני וליצור עבורם דוחות אוטומטיים בטבלת operational_report.
@@ -627,7 +627,7 @@ corps → unit → executed_by → operation→medical_event → patient.
 
 ![alt text](<שלב ד/check_logistic_risk_operations_procedure.png>)
 
-
+## טריגרים
 טריגר 1-
 
 פונקציית טריגר: trg_check_medical_load()
@@ -658,7 +658,7 @@ corps → unit → executed_by → operation→medical_event → patient.
 
 ![alt text](<שלב ד/טריגר check_logistic_risk.png>)
 
-
+## תוכניות
 תוכנית 1 – עומס רפואי במבצעים
 
 מטרה:
