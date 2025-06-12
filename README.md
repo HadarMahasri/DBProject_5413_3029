@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/4b8af914-5b12-4c71-945b-5e52b82b7868)![image](https://github.com/user-attachments/assets/4b8af914-5b12-4c71-945b-5e52b82b7868)![image](https://github.com/user-attachments/assets/4b8af914-5b12-4c71-945b-5e52b82b7868)
 
 # פרויקט בסיסי נתונים
 הדר מהסרי-213953029
@@ -59,7 +59,9 @@
 
 
 דיאגרמת ה-ERD מתארת את הישויות במערכת ואת היחסים ביניהן:
-![alt text](שלב א/image.png)
+![image](https://github.com/user-attachments/assets/8cab3a83-2fa3-454d-9e5f-2ebece072fda)
+
+
 הישויות העיקריות במערכת:
 
 מבצע (Operation) - הישות המרכזית המתארת מבצע צבאי
