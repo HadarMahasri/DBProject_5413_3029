@@ -590,7 +590,7 @@ corps → unit → executed_by → operation→medical_event → patient.
 
 אין ציוד כלל → אין ציוד
 
-![alt text](<שלב ד/get_logistic_status_by_operation_function.png>)
+![alt text](<שלב ד/get_logistic_status_by_operation_function.jpeg>)
 
 ## פרוצדרות
 פרוצדורה 1-
