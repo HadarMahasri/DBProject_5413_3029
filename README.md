@@ -107,12 +107,12 @@ DSD - דיאגרמת סכמת נתונים
 ![alt text](image-5.png)
 ![alt text](<שלב א/image-6.png>)
 עבור טבלת corps:
-![alt text](image-7.png)
-![alt text](image-8.png)
+![alt text](<שלב א/image-7.png>)
+![alt text](<שלב א/image-8.png>)
 
 עבור טבלת operation:
-![alt text](image-9.png)
-![alt text](image-10.png)
+![alt text](<שלב א/image-9.png>)
+![alt text](<שלב א/image-10.png>)
 
 
 
@@ -124,7 +124,7 @@ DSD - דיאגרמת סכמת נתונים
 
 
 
-![alt text](image-11.png)
+![alt text](<שלב א/image-11.png>)
 
 
 
@@ -136,7 +136,7 @@ DSD - דיאגרמת סכמת נתונים
 
 
 
-![alt text](image-12.png)
+![alt text](<שלב א/image-12.png>)
 
 
 
@@ -150,37 +150,37 @@ DSD - דיאגרמת סכמת נתונים
 
 
 
-![alt text](image-13.png)
+![alt text](<שלב א/image-13.png>)
 
 
 
 שיטה 3- הכנסת נתונים דרך פייתון
 עבור טבלת Executed_by:
-![alt text](image-14.png)
-![alt text](image-15.png)
+![alt text](<שלב א/image-14.png>)
+![alt text](<שלב א/image-15.png>)
 
 עבור טבלת Task:
-![alt text](image-16.png)
-![alt text](image-17.png)
+![alt text](<שלב א/image-16.png>)
+![alt text](<שלב א/image-17.png>)
 
 עבור טבלת Requires:
-![alt text](image-18.png)
-![alt text](image-19.png)
+![alt text](<שלב א/image-18.png>)
+![alt text](<שלב א/image-19.png>)
 
 
 ### גיבוי
 
 ביצוע גיבוי: 
 
-![alt text](image-20.png)
+![alt text](<שלב א/image-20.png>)
 
 ביצוע שחזור:
 יצרתי database חדש בשם backup על מנת לראות אם השחזור צלח.
 ובהחלט 9 הטבלאות שוחזרו בהצלחה עם כל הנתונים. צירפתי דוגמא לטבלת unit בעלת 403 רשומות.
 
-![alt text](image-21.png)
+![alt text](<שלב א/image-21.png>)
 
-![alt text](image-22.png) 
+![alt text](<שלב א/image-22.png>) 
 # שלב ב: שאילתות
 
 ## שאילתות בחירה
