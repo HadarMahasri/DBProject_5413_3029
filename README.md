@@ -561,11 +561,7 @@ corps → unit → executed_by → operation→medical_event → patient.
 
 
 
-
-
-
-
-![alt text](<שלב ד/get_corps_patient_summary_function().png>)
+![alt text](<get_corps_patient_summary_function().png>)
 
 פונקציה 2-
 
@@ -660,7 +656,7 @@ corps → unit → executed_by → operation→medical_event → patient.
 למה זה חשוב?
 כי שינוי בדרישות יכול לגרום מידית לסיכון לוגיסטי שמחייב בדיקה ועדכון דוח.
 
-![alt text](<טריגר check_logistic_risk.png>)
+![alt text](<שלב ד/טריגר check_logistic_risk.png>)
 
 
 תוכנית 1 – עומס רפואי במבצעים
