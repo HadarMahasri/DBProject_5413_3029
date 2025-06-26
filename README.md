@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/ca2b8845-089c-4244-8fef-7c07ca02c776)![image](https://github.com/user-attachments/assets/ca2b8845-089c-4244-8fef-7c07ca02c776)# פרויקט בסיסי נתונים
+# פרויקט בסיסי נתונים
 
 הדר מהסרי 213953029 הודיה גומה 329385413
 
@@ -765,20 +765,17 @@ corps → unit → executed_by → operation→medical_event → patient.
 ### מסך ראשי
 המסך הראשי של המערכת, ממנו ניתן לגשת לכל הפונקציונליות המרכזית: ניהול טבלאות, ביצוע שאילתות מתקדמות, ושימוש בפונקציות מותאמות אישית.
 
-![image](https://github.com/user-attachments/assets/57d3a762-260e-4a5b-b814-ec15796137a1)
+![image](https://github.com/user-attachments/assets/8e4fcf51-87b0-4a53-848b-0177a54a8f3a)
+
 
 
 ### מסך ניהול טבלאות 
 במסך זה ניתן לבחור אחת מארבע הטבלאות המרכזיות של המערכת ולבצע עליה פעולות.
 המערכת מתאימה את שדות הטופס בהתאם לטבלה שנבחרה, כולל תיבות בחירה (ComboBox) לשדות שמקושרים לטבלאות אחרות.
 
-![image](https://github.com/user-attachments/assets/b48f33a3-f63c-4b92-982d-ba842ae5de9d)
-
-
-
-### מסך בחירת טבלה
-
 ![image](https://github.com/user-attachments/assets/5ea3e929-df10-442c-a528-02fe20d1c53f)
+
+
 
 
 
