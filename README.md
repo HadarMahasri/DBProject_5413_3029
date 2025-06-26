@@ -1,4 +1,4 @@
-# פרויקט בסיסי נתונים
+![image](https://github.com/user-attachments/assets/ca2b8845-089c-4244-8fef-7c07ca02c776)![image](https://github.com/user-attachments/assets/ca2b8845-089c-4244-8fef-7c07ca02c776)# פרויקט בסיסי נתונים
 
 הדר מהסרי 213953029 הודיה גומה 329385413
 
@@ -772,7 +772,15 @@ corps → unit → executed_by → operation→medical_event → patient.
 במסך זה ניתן לבחור אחת מארבע הטבלאות המרכזיות של המערכת ולבצע עליה פעולות.
 המערכת מתאימה את שדות הטופס בהתאם לטבלה שנבחרה, כולל תיבות בחירה (ComboBox) לשדות שמקושרים לטבלאות אחרות.
 
-![image](https://github.com/user-attachments/assets/9e3ad729-a855-46d6-957f-a8ef09462f77)
+![image](https://github.com/user-attachments/assets/b48f33a3-f63c-4b92-982d-ba842ae5de9d)
+
+
+
+### מסך בחירת טבלה
+
+![image](https://github.com/user-attachments/assets/5ea3e929-df10-442c-a528-02fe20d1c53f)
+
+
 
 ### מסך פעולות על כל טבלה
 המסך שבתמונה מציג את טבלת הציוד הצבאי (equipment) ומאפשר ניהול מלא של הנתונים – צפייה, הוספה, עדכון, מחיקה וחיפוש.
@@ -783,7 +791,7 @@ corps → unit → executed_by → operation→medical_event → patient.
 ממשק בעברית עם עיצוב מודרני ונוח.
 המסך מחובר למסד PostgreSQL ומוודא שלמות נתונים בעת מחיקה או עדכון.
 
-![image](https://github.com/user-attachments/assets/111d61fa-8fd3-41c5-9d1b-a49e49e7c321)
+![image](https://github.com/user-attachments/assets/e31493b8-f2f1-418f-9d8e-1b7561ac78aa)
 
 ### מסך פרוצדורות מערכת
 במסך זה ניתן להפעיל פרוצדורות מתקדמות על בסיס הנתונים, כמו סיכום עומס רפואי או בדיקת סיכונים לוגיסטיים. בצד שמאל מוצגות האפשרויות, ובצד ימין יוצג הפלט של הפרוצדורה בצורה טבלאית לאחר הרצתה.
