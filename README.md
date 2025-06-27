@@ -921,7 +921,7 @@ corps → unit → executed_by → operation→medical_event → patient.
 
 ![image](https://github.com/user-attachments/assets/d156fd0d-db2f-4f3f-a31d-d111ac24b33d)
 
-#### מבצעים עם משמיות מעל הממוצע
+#### מבצעים עם משימות מעל הממוצע
 
 השאילתה מציגה מבצעים שיש להם יותר פריטי ציוד מהממוצע, כדי לזהות מבצעים עם דרישות לוגיסטיות גבוהות.
 
