@@ -921,6 +921,13 @@ corps → unit → executed_by → operation→medical_event → patient.
 
 ![image](https://github.com/user-attachments/assets/d156fd0d-db2f-4f3f-a31d-d111ac24b33d)
 
+#### מבצעים עם משמיות מעל הממוצע
+
+השאילתה מציגה מבצעים שיש להם יותר פריטי ציוד מהממוצע, כדי לזהות מבצעים עם דרישות לוגיסטיות גבוהות.
+
+![image](https://github.com/user-attachments/assets/c96a1716-f7a3-4e50-a2b4-4094dc072542)
+
+
 #### מבצעים ארוכי טווח 
 השאילתה מציגה מבצעים שאורכם (משך הימים) מעל הממוצע, כדי לזהות מבצעים חריגים באורך שלהם.
 
