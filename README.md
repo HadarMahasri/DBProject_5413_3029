@@ -921,7 +921,7 @@ corps → unit → executed_by → operation→medical_event → patient.
 
 ![image](https://github.com/user-attachments/assets/d156fd0d-db2f-4f3f-a31d-d111ac24b33d)
 
-#### מבצעי ארוכי טווח 
+#### מבצעים ארוכי טווח 
 השאילתה מציגה מבצעים שאורכם (משך הימים) מעל הממוצע, כדי לזהות מבצעים חריגים באורך שלהם.
 
 ![image](https://github.com/user-attachments/assets/d886b839-d576-4b87-8535-f31fbd5f6963)
