@@ -32,6 +32,8 @@
    - [מסך ניהול טבלאות](#מסך-ניהול-טבלאות)
    - [מסך פעולות על כל טבלה](#מסך-פעולות-על-כל-טבלה)
      - [טבלת אירועים רפואיים](#טבלת-אירועיים-רפואיים)
+     - [טבלת ציוד צבאי](#טבלת-ציוד--צבאי)
+     - [טבלת דרישות ציוד צבאי](#דרישות-ציוד-צבאי)
    - [מסך פרוצדורות מערכת](#מסך-פרוצודרות-מערכת)
    - [מסך פונקציות מותאמות](#מסך-פונקציות-מותאמות)
    - [מסך שאילתות בחירה](#מסך-שאילתות-בחירה)
@@ -797,7 +799,7 @@ corps → unit → executed_by → operation→medical_event → patient.
 עדכון:
 ![image](https://github.com/user-attachments/assets/6beb2899-bb00-4ef3-bbce-88c52bc97fca)
 
-מחיקה:
+מחיקה מוגבלת:
 
 ![image](https://github.com/user-attachments/assets/dc6d0c14-4a4f-44c7-928c-e940edc1549d)
 חיפוש:
@@ -807,6 +809,25 @@ corps → unit → executed_by → operation→medical_event → patient.
 הוספה:
 
 ![image](https://github.com/user-attachments/assets/1e0f16fa-4b1b-4a10-b581-973933443a9f)
+
+#### טבלת ציוד צבאי
+עדכון:
+
+![image](https://github.com/user-attachments/assets/b842edbe-60d4-408b-80fc-db99301b4a1c)
+
+מחיקה מובלת:
+
+![image](https://github.com/user-attachments/assets/7e27667d-454f-476a-9420-e59f7f25bcb8)
+
+חיפוש:
+
+![image](https://github.com/user-attachments/assets/b19a58e9-b803-4baf-ba7c-ff2dcc5c684f)
+
+הוספה:
+
+![image](https://github.com/user-attachments/assets/45865178-c369-45e1-9c4f-81c9dc03f8d0)
+
+
 
 ### מסך פרוצדורות מערכת
 במסך זה ניתן להפעיל פרוצדורות מתקדמות על בסיס הנתונים, כמו סיכום עומס רפואי או בדיקת סיכונים לוגיסטיים. בצד שמאל מוצגות האפשרויות, ובצד ימין יוצג הפלט של הפרוצדורה בצורה טבלאית לאחר הרצתה.
