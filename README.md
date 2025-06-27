@@ -34,6 +34,7 @@
      - [טבלת אירועים רפואיים](#טבלת-אירועיים-רפואיים)
      - [טבלת ציוד צבאי](#טבלת-ציוד--צבאי)
      - [טבלת דרישות ציוד צבאי](#דרישות-ציוד-צבאי)
+     - [טבלת דרישות ציוד רפואי](#טבלת-דרישות-ציוד-רפואי)
    - [מסך פרוצדורות מערכת](#מסך-פרוצודרות-מערכת)
    - [מסך פונקציות מותאמות](#מסך-פונקציות-מותאמות)
    - [מסך שאילתות בחירה](#מסך-שאילתות-בחירה)
@@ -811,6 +812,9 @@ corps → unit → executed_by → operation→medical_event → patient.
 ![image](https://github.com/user-attachments/assets/1e0f16fa-4b1b-4a10-b581-973933443a9f)
 
 #### טבלת ציוד צבאי
+
+![image](https://github.com/user-attachments/assets/10d3dc4c-4594-4807-83c6-c86039269d5b)
+
 עדכון:
 
 ![image](https://github.com/user-attachments/assets/b842edbe-60d4-408b-80fc-db99301b4a1c)
@@ -826,6 +830,44 @@ corps → unit → executed_by → operation→medical_event → patient.
 הוספה:
 
 ![image](https://github.com/user-attachments/assets/45865178-c369-45e1-9c4f-81c9dc03f8d0)
+
+
+#### טבלת דירושת ציוד צבאי
+
+![image](https://github.com/user-attachments/assets/dbd13fa2-297b-4e36-b41a-a4e50463552a)
+
+
+עדכון:
+![image](https://github.com/user-attachments/assets/67b0909c-b6cd-4589-817c-2828f2e3c252)
+
+מחיקה:
+
+![image](https://github.com/user-attachments/assets/a9769e0f-d27a-4612-a618-1b22bae5e995)
+
+חיפוש:
+
+![image](https://github.com/user-attachments/assets/98b467b0-e57c-4f40-b412-647ce023338d)
+
+הוספה:
+![image](https://github.com/user-attachments/assets/fa87a519-3250-40fb-a821-fab985dc17d7)
+
+#### טבלת דרישות ציוד רפואי
+![image](https://github.com/user-attachments/assets/2137574a-e6ce-4d28-87b3-3c2f6eccda95)
+
+עדכון:
+
+![image](https://github.com/user-attachments/assets/4067f421-9ecf-4819-b1e4-dc2584622496)
+
+מחיקה:
+
+![image](https://github.com/user-attachments/assets/cd4e2e88-f0b2-4d7f-bea6-b9aeafbffd12)
+
+חיפוש:
+![image](https://github.com/user-attachments/assets/bad14b45-e35c-4562-8681-b01a21c86950)
+
+הוספה:
+![image](https://github.com/user-attachments/assets/e96118a7-1658-4315-8a1a-808fda7db3ac)
+
 
 
 
