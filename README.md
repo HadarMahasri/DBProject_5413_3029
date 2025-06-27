@@ -790,7 +790,24 @@ corps → unit → executed_by → operation→medical_event → patient.
 המסך מחובר למסד PostgreSQL ומוודא שלמות נתונים בעת מחיקה או עדכון.
 
 ![image](https://github.com/user-attachments/assets/e31493b8-f2f1-418f-9d8e-1b7561ac78aa)
-#### קלב
+#### טבלת אירועיים רפואיים
+
+![image](https://github.com/user-attachments/assets/c8d64c9d-3e5b-4411-87b7-dab8e9888d0d)
+
+עדכון:
+![image](https://github.com/user-attachments/assets/6beb2899-bb00-4ef3-bbce-88c52bc97fca)
+
+מחיקה:
+
+![image](https://github.com/user-attachments/assets/dc6d0c14-4a4f-44c7-928c-e940edc1549d)
+חיפוש:
+
+![image](https://github.com/user-attachments/assets/82066378-65c6-4d3e-ae27-cc0ff11142ef)
+
+הוספה:
+
+![image](https://github.com/user-attachments/assets/1e0f16fa-4b1b-4a10-b581-973933443a9f)
+
 ### מסך פרוצדורות מערכת
 במסך זה ניתן להפעיל פרוצדורות מתקדמות על בסיס הנתונים, כמו סיכום עומס רפואי או בדיקת סיכונים לוגיסטיים. בצד שמאל מוצגות האפשרויות, ובצד ימין יוצג הפלט של הפרוצדורה בצורה טבלאית לאחר הרצתה.
 
